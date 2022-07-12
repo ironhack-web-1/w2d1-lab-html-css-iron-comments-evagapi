@@ -8,3 +8,7 @@ body {
 #form-container {
   margin: auto;
 }
+
+.no-border {
+  border: none;
+}
