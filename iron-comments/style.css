@@ -29,3 +29,10 @@ body {
 .updates-text {
   font-style: italic;
 }
+
+.button {
+  background-color: rgb(67, 163, 230);
+  border-radius: 15px;
+  color: white;
+  padding: 5px 10px;
+}
