@@ -39,6 +39,7 @@ body {
 .button {
   background-color: rgb(67, 163, 230);
   border-radius: 15px;
+  border-width: 0;
   color: white;
   padding: 5px 10px;
 }
