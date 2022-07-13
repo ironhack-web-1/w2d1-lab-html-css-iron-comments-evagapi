@@ -1,9 +1,15 @@
+:root {
+  --main-text-color: white;
+  --main-bg-color: rgb(25, 33, 41);
+  --primary-color: rgb(67, 163, 230);
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(25, 33, 41);
+  background-color: var(--main-bg-color);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   margin: 0;
   padding: 0;
@@ -12,7 +18,7 @@ body {
 }
 
 #form-container {
-  border: solid 2px rgb(67, 163, 230);
+  border: solid 2px var(--primary-color);
   border-radius: 2px;
   margin: auto;
   padding: 20px;
@@ -24,13 +30,13 @@ body {
 }
 
 .form-label {
-  color: white;
+  color: var(--main-text-color);
   display: inline-block;
   margin: 0.5rem 0;
 }
 
 .input {
-  border: solid 1px rgb(67, 163, 230);
+  border: solid 1px var(--primary-color);
   border-radius: 2px;
 }
 
