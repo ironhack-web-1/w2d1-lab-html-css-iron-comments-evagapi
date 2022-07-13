@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(25, 33, 41);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -8,10 +12,9 @@ body {
 }
 
 #form-container {
-  align-items: center;
   border: solid 2px rgb(67, 163, 230);
-  box-sizing: border-box;
   margin: auto;
+  padding: 20px;
   width: 250px;
 }
 
