@@ -24,6 +24,8 @@ body {
 
 .form-label {
   color: white;
+  display: inline-block;
+  margin: 0.5rem 0;
 }
 
 .full-width {
