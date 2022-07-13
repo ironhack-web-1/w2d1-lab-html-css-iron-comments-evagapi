@@ -13,6 +13,7 @@ body {
 
 #form-container {
   border: solid 2px rgb(67, 163, 230);
+  border-radius: 2px;
   margin: auto;
   padding: 20px;
   width: 250px;
@@ -26,6 +27,11 @@ body {
   color: white;
   display: inline-block;
   margin: 0.5rem 0;
+}
+
+.input {
+  border: solid 1px rgb(67, 163, 230);
+  border-radius: 2px;
 }
 
 .full-width {
